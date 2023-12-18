@@ -35,36 +35,65 @@
 
 
 -- Аналогично предыдущему заданию создадим два файла:  lab_dk.yml и dev_dk.yml с одинаковым содержимым:
+
 version: '3.9'
+
 services:
-  web:
-    image: adminer:4.8.1
-    restart: always
-    ports:
-      - 6080:8080
-  db:
-    image: mariadb:10.10.2
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: 12345
--- За web составляющую будет отвечать adminer версии 4.8.1, а за базу данных mariadb версии 10.10.2
--- Для запуска сервисов в окружении "lab" выполним команду:
+
+   web:
+
+     image: adminer:4.8.1
+
+      restart: always
+
+      ports:
+
+        - 6080:8080
+    db:
+      image: mariadb:10.10.2
+
+      restart: always
+
+      environment:
+
+        MYSQL_ROOT_PASSWORD: 123456
+
+- - За web составляющую будет отвечать adminer версии 4.8.1, а за базу данных mariadb версии 10.10.2
+
+- - Для запуска сервисов в окружении "lab" выполним команду:
+
 root@n-X501A1:/home/n/Docker# docker-compose -f lab_dk.yml up -d
+
 [+] Running 17/17
+
  ✔ web 7 layers [⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                          32.9s 
+
    ✔ 918547b94326 Pull complete                                           23.0s 
+
    ✔ 6bf072a3c195 Pull complete                                           28.5s 
+
    ✔ 3683a3b1017a Pull complete                                           28.8s 
+
    ✔ 51a450f50bf3 Pull complete                                           29.0s 
+
    ✔ c9988d325d7e Pull complete                                           29.1s 
+
    ✔ d88de51838f2 Pull complete                                           29.4s 
+
    ✔ ccbdbbaee470 Pull complete                                           29.5s 
+
  ✔ db 8 layers [⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                          35.7s 
+
    ✔ 10ac4908093d Pull complete                                           22.0s 
+
    ✔ 44779101e748 Pull complete                                           22.2s 
+
    ✔ a721db3e3f3d Pull complete                                           24.2s 
+
    ✔ 1850a929b84a Pull complete                                           24.7s 
+
    ✔ 397a918c7da3 Pull complete                                           25.3s 
+   
    ✔ 806be17e856d Pull complete                                           32.1s 
    ✔ 634de6c90876 Pull complete                                           32.1s 
    ✔ cd00854cfb1a Pull complete                                           32.2s 
