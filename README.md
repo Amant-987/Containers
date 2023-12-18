@@ -7,24 +7,24 @@
 3) по итогу на каждой ноде должно быть по 2 работающих контейнера
 4) выводы зафиксировать
 
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_1.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_2.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_3.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_4.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_5.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_6.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_7.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_8.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_9.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_10.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_11.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_12.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_13.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_14.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_15.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_16.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_17.png
-https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_18.png
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_1.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_2.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_3.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_4.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_5.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_6.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_7.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_8.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_9.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_10.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_11.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_12.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_13.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_14.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_15.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_16.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_17.png)
+!(https://github.com/Amant-987/Containers/blob/main/Screenshots_task1/Screenshot_18.png)
 
 
 
