@@ -93,22 +93,35 @@ root@n-X501A1:/home/n/Docker# docker-compose -f lab_dk.yml up -d
    ✔ 1850a929b84a Pull complete                                           24.7s 
 
    ✔ 397a918c7da3 Pull complete                                           25.3s 
-   
+
    ✔ 806be17e856d Pull complete                                           32.1s 
+
    ✔ 634de6c90876 Pull complete                                           32.1s 
+
    ✔ cd00854cfb1a Pull complete                                           32.2s 
+
 [+] Running 3/3
+
  ✔ Network docker_default  Created                                         0.2s 
+
  ✔ Container docker-web-1  Started                                         2.4s 
+
  ✔ Container docker-db-1   Started                                         2.4s 
+
  
  -- Для запуска сервисов в окружении "dev" выполним команду:
+
 root@n-X501A1:/home/n/Docker# docker-compose -f dev_dk.yml up -d
+
 [+] Running 2/0
+
  ✔ Container docker-db-1   Running                                         0.0s 
+
  ✔ Container docker-web-1  Running                                         0.0s 
 
+
 -- Далее можно очистить все, что мы сделали, за ненадобностью
+
 docker stop $(docker ps -qa) && docker rm $(docker ps -qa) && docker rmi -f $(docker images -qa) && docker volume rm $(docker volume ls -q) && docker network rm $(docker network ls -q)
 
 
