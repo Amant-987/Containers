@@ -33,7 +33,7 @@
 2) повторить задание 1 для двух окружений: lab, dev
 3) обязательно проверить и зафиксировать результаты, чтобы можно было выслать преподавателю для проверки
 
-Process:
+
 -- Аналогично предыдущему заданию создадим два файла:  lab_dk.yml и dev_dk.yml с одинаковым содержимым:
 version: '3.9'
 services:
@@ -46,10 +46,10 @@ services:
     image: mariadb:10.10.2
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_ROOT_PASSWORD: 12345
 -- За web составляющую будет отвечать adminer версии 4.8.1, а за базу данных mariadb версии 10.10.2
 -- Для запуска сервисов в окружении "lab" выполним команду:
-root@server-for-task:/home/n/Docker# docker-compose -f lab_dk.yml up -d
+root@n-X501A1:/home/n/Docker# docker-compose -f lab_dk.yml up -d
 [+] Running 17/17
  ✔ web 7 layers [⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                          32.9s 
    ✔ 918547b94326 Pull complete                                           23.0s 
@@ -61,26 +61,27 @@ root@server-for-task:/home/n/Docker# docker-compose -f lab_dk.yml up -d
    ✔ ccbdbbaee470 Pull complete                                           29.5s 
  ✔ db 8 layers [⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                          35.7s 
    ✔ 10ac4908093d Pull complete                                           22.0s 
-   ✔ 44449101e748 Pull complete                                           22.2s 
+   ✔ 44779101e748 Pull complete                                           22.2s 
    ✔ a721db3e3f3d Pull complete                                           24.2s 
-   ✔ 1850a930b84a Pull complete                                           24.7s 
-   ✔ 397a938c7da3 Pull complete                                           25.3s 
-   ✔ 826be17e856d Pull complete                                           32.1s 
-   ✔ 644de6c90876 Pull complete                                           32.1s 
-   ✔ cd00814cfb1a Pull complete                                           32.2s 
+   ✔ 1850a929b84a Pull complete                                           24.7s 
+   ✔ 397a918c7da3 Pull complete                                           25.3s 
+   ✔ 806be17e856d Pull complete                                           32.1s 
+   ✔ 634de6c90876 Pull complete                                           32.1s 
+   ✔ cd00854cfb1a Pull complete                                           32.2s 
 [+] Running 3/3
  ✔ Network docker_default  Created                                         0.2s 
  ✔ Container docker-web-1  Started                                         2.4s 
  ✔ Container docker-db-1   Started                                         2.4s 
  
  -- Для запуска сервисов в окружении "dev" выполним команду:
-root@server-for-task:/home/n/Docker# docker-compose -f dev_dk.yml up -d
+root@n-X501A1:/home/n/Docker# docker-compose -f dev_dk.yml up -d
 [+] Running 2/0
  ✔ Container docker-db-1   Running                                         0.0s 
  ✔ Container docker-web-1  Running                                         0.0s 
 
 -- Далее можно очистить все, что мы сделали, за ненадобностью
 docker stop $(docker ps -qa) && docker rm $(docker ps -qa) && docker rmi -f $(docker images -qa) && docker volume rm $(docker volume ls -q) && docker network rm $(docker network ls -q)
+
 
 
 
